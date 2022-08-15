@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.principal--aside {
+    width: 25%;
+    height: 50%;
+    margin-left: 15%;
+}
+
+.asideP{
+    width: 100%;
+    height: 100%;
+    margin-right: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Inter';
+    color: #888;
+    border: 0.1vh solid #E9ECEF;
+    border-radius: 0.8vh;
+    background-color: #fff;
+}
+
+.asideP--text {
+    width: 80%;
+    height: 25%;
+}
+
+.asideP--small {
+    font-size: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    color: #5B6166;
+}
+
+.asideP--p {
+    font-size: 2.5vh;
+    color: #212529;
+}
+
+.asideP--others {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.asideP--input {
+    width: 100%;
+    height: 6vh;
+    font-size: 3vh;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 1vh;
+    font-size: 2vh;
+    font-family: 'Inter';
+}
+
+.asideP--button {
+    width: 100%;
+    height: 8vh;
+    font-size: 2vh;
+    font-family: 'Inter';
+}
+
+.asideP--input--others {
+    width: 80%;
+    height: 6vh;
+    font-size: 3vh;
+    font-family: 'Inter';
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 1vh;
+    font-size: 2vh; 
+}
+
+.asideP--others-- {
+    height: inherit;
+    width: 50%;
+    margin-bottom: 2vh;
+}
+
+.asideP--opt--others {
+    width: 100%;
+    height: 7vh;
+    font-size: 3vh;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 1vh;
+    font-size: 2vh;
+    color: #5B6166;
+    font-family: 'Inter';
+    font-weight: 400;
+    appearance: none;
+    -webkit-appearance:menulist ;
+    -moz-appearance:button ;
+}
+
+.asideP--button {
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    border-radius: 0.5vh;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #fff;
+}
+
+.asideP--button:hover {
+    filter: brightness(1.1);
+    border: 2px solid #FD377E;
+    border-radius: 0.5vh;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #fff;
+    transition: .3s;
+}
+
+.aside--total {
+    width: 100%;
+    height: 28%;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Inter';
+    color: #888;
+    border: 0.1vh solid #E9ECEF;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.aside--total--valor {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito';
+}
+
+.asideP--total--p {
+    font-size: 2.5vh;
+    color: #212529;
+    font-weight: 800;
+    font-family: 'Nunito';
+}
+
+.asideP--value {
+    font-size: 2.5vh;
+    color: #FD377E;
+    font-weight: 800;
+    font-family: 'Nunito';
+}
+
+input:focus {
+    background-color: rgb(212, 233, 226);
+}
+
+@media (max-width: 750px) {
+    .principal--aside {
+        width: 70%;
+        height: 50%;
+        margin-bottom: 20vh;
+    }
+}

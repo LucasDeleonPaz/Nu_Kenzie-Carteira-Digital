@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.principal--main {
+    width: 41.5%;
+    height: 66%;
+    margin-left: 3.5%;
+}
+
+.principal--main--header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.principal--main--header p {
+    font-size: 2.5vh;
+    margin-top: 1.2vh;
+    color: #212529;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main--header--nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items:flex-start ;
+}
+
+.header--nav--set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 55%;
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 1vh;
+    font-size: 2.3vh;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    color: #5B6166;
+    cursor: pointer;
+}
+
+.header--nav--set--togle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 55%;
+    background: #FD377E;
+    border: 1.4px solid #FD377E;
+    border-radius: 1vh;
+    font-size: 2.3vh;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.principal--main--transations {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #000;
+    overflow-x: auto;
+    gap: 2.3vh;
+}
+
+.principal--main--noEntries {
+    width: 100%;
+    height: 10%;
+    font-size: 5vh;
+    font-size: 2.5vh;
+    color: #212529;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.principal--main--noEntries img {
+    width: 100%;
+}
+
+.principal--main--noEntries p {
+    font-size: 5vh;
+    font-size: 2.5vh;
+    color: #212529;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media (max-width: 750px) {
+    .principal--main {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .principal--main--noEntries img {
+        width: 100%;
+    }
+
+    .main--header--nav {
+        width: 80%;
+    }
+
+    .header--nav--set {
+        width: 30%;
+        font-size: 2vh;
+    }
+
+    .header--nav--set--togle {
+        font-size: 2vh;
+    }
+}

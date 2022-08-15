@@ -1,0 +1,29 @@
+.cir1 {
+    width: 70vh;
+    height: 70vh;
+    border-radius: 70vh;
+    margin-left: 5vw;
+}
+
+.cir1 img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media (max-width: 710px) {
+    .cir1 {
+        width: 100%;
+        border-radius: 70vh;
+        margin-left: 5vw;
+        position: absolute;
+        bottom: 18vh;
+        right: -7vw;
+        opacity: 19%; 
+    }
+    .cir1 img {
+        width: 100%;
+        height: 100%;
+        
+    }
+}
